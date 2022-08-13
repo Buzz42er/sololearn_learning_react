@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+
+const Hello = (props) => {
+    return (
+      <>
+      <h1>This is me learning React with SoloLearn</h1>
+      <p>Hope you're doing well, my name is {props.name}</p>
+      <MySecondComponent date={Date()}/>
+      </>
+      
+    )
+}
+
+const MySecondComponent = (props) => {
+  return (
+    <>
+    <p>This is todays date : {props.date}</p>
+    </>
+  )
+}
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return  <Hello name='Jure' /> ;
 }
 
 export default App;
