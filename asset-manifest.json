@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sololearn_learning_react/static/css/main.e6c13ad2.css",
-    "main.js": "/sololearn_learning_react/static/js/main.b29a695d.js",
+    "main.css": "/sololearn_learning_react/static/css/main.6bc455c7.css",
+    "main.js": "/sololearn_learning_react/static/js/main.2c09fd61.js",
     "index.html": "/sololearn_learning_react/index.html",
-    "main.e6c13ad2.css.map": "/sololearn_learning_react/static/css/main.e6c13ad2.css.map",
-    "main.b29a695d.js.map": "/sololearn_learning_react/static/js/main.b29a695d.js.map"
+    "main.6bc455c7.css.map": "/sololearn_learning_react/static/css/main.6bc455c7.css.map",
+    "main.2c09fd61.js.map": "/sololearn_learning_react/static/js/main.2c09fd61.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.b29a695d.js"
+    "static/css/main.6bc455c7.css",
+    "static/js/main.2c09fd61.js"
   ]
 }
